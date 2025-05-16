@@ -1,12 +1,12 @@
-package com.ayan.handson.service;
+package com.ayan.service;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.ayan.handson.dao.MotorcycleRepository;
-import com.ayan.handson.entity.Motorcycle;
+import com.ayan.dao.MotorcycleRepository;
+import com.ayan.entity.Motorcycle;
 
 @Service
 public class MotorcycleServiceImpl implements MotorcycleService {
@@ -45,5 +45,4 @@ public class MotorcycleServiceImpl implements MotorcycleService {
     public void deleteById(int id) {
         motorcycleRepository.deleteById(id);
     }
-    
 }

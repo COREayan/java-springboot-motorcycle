@@ -1,4 +1,4 @@
-package com.ayan.handson.entity;
+package com.ayan.entity;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

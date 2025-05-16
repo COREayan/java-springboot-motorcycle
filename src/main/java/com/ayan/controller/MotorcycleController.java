@@ -1,11 +1,11 @@
-package com.ayan.handson.controller;
+package com.ayan.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.ayan.handson.entity.Motorcycle;
-import com.ayan.handson.service.MotorcycleService;
+import com.ayan.entity.Motorcycle;
+import com.ayan.service.MotorcycleService;
 
 import java.util.List;
 import org.springframework.web.bind.annotation.PostMapping;

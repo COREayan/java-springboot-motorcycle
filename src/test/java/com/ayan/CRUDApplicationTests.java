@@ -1,10 +1,10 @@
-package com.ayan.handson;
+package com.ayan;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HandsonApplicationTests {
+class CRUDApplicationTests {
 
 	@Test
 	void contextLoads() {

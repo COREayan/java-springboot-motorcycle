@@ -1,8 +1,8 @@
-package com.ayan.handson.service;
+package com.ayan.service;
 
 import java.util.List;
 
-import com.ayan.handson.entity.Motorcycle;
+import com.ayan.entity.Motorcycle;
 
 public interface MotorcycleService {
     

@@ -1,13 +1,13 @@
-package com.ayan.handson;
+package com.ayan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HandsonApplication {
+public class CRUDApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HandsonApplication.class, args);
+		SpringApplication.run(CRUDApplication.class, args);
 	}
 
 }
